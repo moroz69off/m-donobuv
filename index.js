@@ -8,7 +8,7 @@ async function initMap() {
         {
             location: {
                 center: [47.215903, 39.669944],
-                zoom: 50
+                zoom: 5
             }
         }
     );
