@@ -1,3 +1,4 @@
+/*
 async function initMap() {
     await ymaps3.ready;
 
@@ -17,3 +18,4 @@ async function initMap() {
 }
 
 initMap();
+*/
