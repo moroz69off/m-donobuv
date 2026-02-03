@@ -6,7 +6,22 @@ const _ALL = document.getElementById("__all");
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext('2d');
 
-console.log("canwas width: ", canvas.width);
 
-console.log(pageWidth);
-console.log(pageHeight);
+window.addEventListener('resize', function() {
+    console.log('Window resized!');
+    // Perform actions here, like adjusting layouts or recalculating sizes
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    console.log(`New size: ${width}px x ${height}px`);
+
+	canvas.width = pageWidth;
+	canvas.height = pageHeight;
+
+});
+
+
+
+console.log("context: ", context.globalAlpha);
+console.log("canwas width: ", canvas.width);
+console.log("pageWidth: ", pageWidth);
+console.log("pageHeight", pageHeight);
