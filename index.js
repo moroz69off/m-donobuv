@@ -9,11 +9,10 @@ const context = canvas.getContext('2d');
 
 
 window.addEventListener('resize', function() {
-    console.log('Window resized!');
-    // Perform actions here, like adjusting layouts or recalculating sizes
+    //console.log('Window resized!');
     const width = window.innerWidth;
     const height = window.innerHeight;
-    console.log(`New size: ${width}px x ${height}px`);
+    //console.log(`New size: ${width}px x ${height}px`);
 
 	canvas.width = width;
 	canvas.height = height;
@@ -22,7 +21,7 @@ window.addEventListener('resize', function() {
 
 
 
-console.log("context: ", context.globalAlpha);
-console.log("canwas width: ", canvas.width);
-console.log("pageWidth: ", pageWidth);
-console.log("pageHeight", pageHeight);
+//console.log("context: ", context.globalAlpha);
+//console.log("canwas width: ", canvas.width);
+//console.log("pageWidth: ", pageWidth);
+//console.log("pageHeight", pageHeight);
