@@ -1,5 +1,7 @@
 "use strict";
+
 // mnemoschema
+
 const pageWidth = document.documentElement.scrollWidth
 const pageHeight = document.documentElement.scrollHeight
 const _ALL = document.getElementById("__all");
