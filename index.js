@@ -12,8 +12,7 @@ window.addEventListener('resize', function() {
     console.log('Window resized!');
     // Perform actions here, like adjusting layouts or recalculating sizes
     const width = window.innerWidth;
-    //const height = window.innerHeight;
-	const height = pageHeight;
+    const height = window.innerHeight;
     console.log(`New size: ${width}px x ${height}px`);
 
 	canvas.width = width;
