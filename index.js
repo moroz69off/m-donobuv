@@ -13,8 +13,8 @@ const context = canvas.getContext('2d');
 window.addEventListener('resize', function() {
     const width = window.innerWidth;
     const height = window.innerHeight;
-	canvas.width = width;
-	canvas.height = height;
+	canvas.width = width - 100;
+	canvas.height = height - 150;
 
 });
 
